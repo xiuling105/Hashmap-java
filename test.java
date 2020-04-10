@@ -8,7 +8,7 @@ public class test{
 
     public static void main(String[] args) {
         String inpath=".\\ml-latest-small\\movies.csv";
-        //新建Hash表读csv文件
+        //create hashmap to read CSV file
         List<HashMap<String, Object>> retHashMap = new ArrayList<HashMap<String, Object>>();
         retHashMap = getcsvTableList(inpath);
         
